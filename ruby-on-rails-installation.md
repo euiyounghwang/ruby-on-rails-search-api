@@ -1,3 +1,14 @@
+### Initial project to github
+```
+echo "# ruby-on-rails-search-api" >> README.md
+git init
+git checkout -b master
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:euiyounghwang/ruby-on-rails-search-api.git
+git push -u origin master
+```
 
 ### ruby git
 ```
@@ -52,4 +63,10 @@ gem install bundler
 ```
 rails new 'project name'
 rails new rails-search-api
+```
+
+
+### start project on ruby-on-rails
+```
+./bin/rails server
 ```
