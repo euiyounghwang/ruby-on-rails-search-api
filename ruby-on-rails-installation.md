@@ -16,6 +16,14 @@ https://github.com/rbenv/rbenv#installing-ruby-versions
 https://ideveloper2.tistory.com/11
 ```
 
+### rbenv?
+- a version manager tool for the Ruby programming language on Unix-like systems. 
+- It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version.
+
+### gem?
+- They are simply open source libraries that contain Ruby code and are packaged with a little extra data . Using a gem allows a programmer to use the code within the gem in their own program, without explicitly inserting that code.
+- open-source Ruby libraries or applications that lend extra utility to other Ruby programs. Each gem is composed of the following:
+
 
 ### ruby-on-rails-api (Install)
 ```

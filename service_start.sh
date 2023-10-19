@@ -8,4 +8,6 @@ SCRIPTDIR="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 echo $SCRIPTDIR
 
-./bin/rails server -p 9900
+# Full path
+# /Users/euiyoung.hwang/ES/Python_Workspace/ruby-on-rails-search-api/bin/rails server -p 9900
+$SCRIPTDIR/bin/rails server -p 9900
