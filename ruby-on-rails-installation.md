@@ -72,6 +72,9 @@ rbenv rehash
 rails -v
 # dependency management for bundler
 gem install bundler
+
+# Add swagger
+rake swagger:docs
 ```
 
 ### create project on ruby-on-rails
