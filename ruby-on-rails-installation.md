@@ -88,3 +88,10 @@ rails new rails-search-api
 ```
 ./bin/rails server
 ```
+
+
+### Test rails swagger
+http://localhost:9900/users
+```
+{"result":"Success GET method.."}
+```

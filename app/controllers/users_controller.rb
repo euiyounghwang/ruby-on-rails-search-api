@@ -1,5 +1,6 @@
-class Api::V1::UsersController < ApplicationController
-    include ApiHelper
+# class Api::V1::UsersController < ApplicationController
+class UsersController < ApplicationController
+    # include ApiHelper
     swagger_controller :users, "API Operations about Users"
     
     swagger_api :index do
@@ -15,7 +16,8 @@ class Api::V1::UsersController < ApplicationController
     end
   
     def index
-      render :json => {result:"Success"}, :status => 200
+      # @users = User.all
+      render :json => {result:"Success GET method.."}, :status => 200
     end
   
   end
