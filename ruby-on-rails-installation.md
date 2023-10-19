@@ -14,6 +14,9 @@ git push -u origin master
 ```
 https://github.com/rbenv/rbenv#installing-ruby-versions
 https://ideveloper2.tistory.com/11
+
+# gem blog
+http://rubygems.org
 ```
 
 ### rbenv?
@@ -64,6 +67,7 @@ source ~/.zshrc
 sudo gem install rails
 rbenv rehash
 rails -v
+# dependency management for bundler
 gem install bundler
 ```
 
