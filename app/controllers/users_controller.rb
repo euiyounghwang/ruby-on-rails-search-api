@@ -3,11 +3,11 @@ class UsersController < ApplicationController
     # include ApiHelper
     swagger_controller :users, "API Operations about Users"
     
-    swagger_api :index do
-        summary "User all list search"
-        response :ok, "Success"
-        response :not_found, "Not Found"
-    end
+    # swagger_api :index do
+    #     summary "User all list search"
+    #     response :ok, "Success"
+    #     response :not_found, "Not Found"
+    # end
   
     swagger_api :index do
       summary "Fetches all users"
